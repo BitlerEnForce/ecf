@@ -1,0 +1,57 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/1136237799/video/empty-wine-glasses-on-a-table-in-a-restaurant-at-night-in-4k-slow-motion-60fps.jpg?s=640x640&k=20&c=sKUWPJJpLCnOMMtHIJnLjRCh8Mr9TO-NXOqr7DyWYyI=");
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+form {
+    position: relative;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 auto;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    max-width: 700px;
+    padding: 30px;
+}
+
+form input {
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.201);
+    padding: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+form a {
+    margin: 50px 0;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.reserver {
+    border: none;
+    background-color: rgb(0, 0, 177);
+    font-size: 18px;
+    color: white;
+}
+
+select {
+    padding: 10px 30px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+}
+
+form p {
+    color: white;
+}

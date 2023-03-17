@@ -1,0 +1,32 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/1136237799/video/empty-wine-glasses-on-a-table-in-a-restaurant-at-night-in-4k-slow-motion-60fps.jpg?s=640x640&k=20&c=sKUWPJJpLCnOMMtHIJnLjRCh8Mr9TO-NXOqr7DyWYyI=");
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+h2 {
+    position: relative;
+    margin: 20px auto;
+    top: 200px;
+    text-align: center;
+    font-size: 35px;
+}
+
+p {
+    position: relative;
+    margin: 20px auto;
+    top: 190px;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+}
+

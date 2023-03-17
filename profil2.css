@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #8b8b8b;
+    border-radius: 30px;
+}
+
+.contenu-global {
+    position: relative;
+    top: 100px;
+}
+
+.notif-copiage {
+    position: fixed;
+    padding: 20px 40px;
+    background-color: rgb(1, 202, 65);
+    border: 3px solid rgb(0, 174, 55);
+    border-radius: 10px;
+    color: black;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    margin: 20px;
+    display: none;
+}
+
+.copier {
+    border: none;
+    background-color: rgb(0, 0, 177);
+    color: white;
+    margin: 0 10px;
+}
+
+/*----------INFO DU PROFIL----------*/
+
+.contenu-infos-global {
+    box-shadow: 0 20px 20px rgba(51, 51, 51, 0.182);
+    padding: 20px;
+}
+
+.info {
+    text-align: center;
+    background-color: aliceblue;
+    border: 3px solid rgb(223, 240, 255);
+    padding: 20px 0 20px 0;
+    border-radius: 10px;
+    margin: 10px auto;
+    max-width: 700px;
+    position: relative;
+
+}
+
+.info .identite {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.info .titre {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.info .identite p {
+    margin: 10px;
+}
+
+/*----------CREATION DES COMMENTAIRES----------*/
+
+.gestion-commentaire-global .titre {
+    position: relative;
+    margin: 50px auto;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.mailto {
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 177);
+    color: white;
+    max-width: 700px;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin: 20px auto;
+    border: none;
+    font-size: 18px;
+}
+
+.mailto:hover, .suppression:hover, .deconnexion:hover {
+    filter: brightness(120%);
+}
+
+textarea {
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.201);
+    padding: 10px;
+    resize: none;
+    outline: none;
+}
+
+/*----------BOUTONS----------*/
+
+.suppression {
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: rgb(177, 0, 0);
+    color: white;
+    max-width: 700px;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin: 20px auto;
+    border: none;
+    font-size: 18px;
+}
+
+.membre-gestion .suppression {
+    margin: 0 10px;
+}
+
+.deconnexion {
+    background-color: rgb(220, 154, 0);
+    color: rgb(0, 0, 0);
+    max-width: 700px;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin: 20px auto;
+    border: none;
+}
+
+/*----------GESTION DES MEMBRES----------*/
+
+.gestion-membres-global {
+    box-shadow: 0 20px 20px rgba(51, 51, 51, 0.182);
+    padding: 50px 0 20px 0;
+}
+
+.titre-membre {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    margin: 120px 0 50px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 30px auto;
+    max-width: 700px;
+    font-size: 18px;
+}
+
+.input-rechercher {
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.201);
+    padding: 10px;
+    border: none;
+    background-color: rgb(222, 219, 211);
+    font-size: 16px;
+}
+
+.membre-global {
+    overflow-y: scroll;
+    max-height: 700px;
+}
+
+.membre-gestion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    border: 3px solid rgb(223, 240, 255);
+    padding: 5px 0;
+    border-radius: 10px;
+    margin: 10px auto;
+    max-width: 700px;
+    position: relative;
+
+}
+
+.membre-gestion .info-membre {
+    text-align: start;
+}
+
+.rechercher {
+    border: none;
+    background-color: rgb(0, 0, 177);
+    font-size: 18px;
+    color: white;
+    margin: 20px 0;
+}
+
+.membre-gestion .info-membre p {
+    margin: 0 10px;
+}
+
+/*----------GESTION DES MENUS----------*/
+
+.contenu-global-menu {
+    padding: 10px;
+    position: relative;
+    margin: 20px auto;
+    max-height: 700px;
+    max-width: 700px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(51, 51, 51, 0.182);
+}
+
+.gestion-menus-global {
+    box-shadow: 0 20px 20px rgba(51, 51, 51, 0.182);
+    padding: 20px;
+}
+
+.titre-gestion-menu {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.titre-gestion-menu .gestion-menu {
+    font-size: 25px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.form-gestion-menu {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(223, 240, 255);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.form-gestion-menu input {
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.201);
+    padding: 10px;
+    border: none;
+    background-color: rgb(222, 219, 211);
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.form-gestion-menu label {
+    margin: 20px 0;
+}
+
+.form-gestion-menu .ajouter {
+    background-color: rgb(0, 0, 177);
+    color: white;
+    margin: 50px 0 20px 0;
+}
+
+select {
+    padding: 10px 30px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+}
+
+/*---------AFFICHAGE PLAT---------*/
+
+.menu-global {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    border: 3px solid rgb(223, 240, 255);
+    padding: 5px 0;
+    border-radius: 10px;
+    margin: 10px auto;
+    max-width: 700px;
+    position: relative;
+}
+
+.url {
+    overflow-x: scroll;
+    max-width: 400px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 3px solid rgb(223, 240, 255);
+    background-color: white;
+}
+
+.menu-global .texte-menu {
+    margin: 0 10px;
+}
+
+.menu-global .bouton-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-global .bouton-menu .modifier {
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(220, 154, 0);
+    color: black;
+}
+
+.menu-global .bouton-menu .supprimer {
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(177, 0, 0);
+    color: white;
+}
+
+/*---------- GESTION RESERVATION----------*/
+
+.gestion-reservation-global {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 50px 0;
+}
+
+.gestion-reservation-global .titre {
+    position: relative;
+    margin: 50px auto;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.reservation-global {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    border: 3px solid rgb(223, 240, 255);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 700px;
+    position: relative;
+}
+
+.reservation {
+    max-width: 700px;
+    width: 100%;
+    max-height: 500px;
+    overflow-y: scroll;
+    position: relative;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.201);
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .membre-gestion {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .membre-gestion .suppresion {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .menu-global {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .menu-global .bouton-menu {
+        flex-direction: row;
+    }
+
+    .menu-global .texte-menu {
+        width: 100%;
+    }
+}

@@ -1,0 +1,48 @@
+* {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/*----------HERITAGE----------*/
+
+.bouton-creux {
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: all .3s;
+    font-size: 18px;
+}
+
+.bouton {
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: all .3s;
+    font-size: 18px;
+}
+
+.bouton:hover {
+    filter: brightness(120%);
+}
+
+.champs-texte {
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.201);
+    padding: 10px;
+    border: none;
+    background-color: rgb(222, 219, 211);
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/*----------COULEUR----------*/
+
+:root {
+    --bleu2: #0f00e0;
+    --bleu3: #0d00bc;
+    --bleu4: #09008d;
+    --bleu5: #05004c;
+
+    --jaune2: rgb(220, 154, 0);
+}
